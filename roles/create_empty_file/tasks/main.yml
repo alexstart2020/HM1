@@ -1,0 +1,7 @@
+- name: crearing a empty file idempodent
+  copy:
+    content: ""
+    dest: "/etc/iaac"
+    force: no
+    mode: 0500
+ 

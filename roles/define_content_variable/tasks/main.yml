@@ -1,0 +1,5 @@
+---
+- name: define content as variable
+  shell: cat /etc/issue
+  register: resultIssue
+# tasks file for define_content_variable

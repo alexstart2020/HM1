@@ -1,0 +1,11 @@
+[group1]
+Linux1  ansible_host=13.58.216.139 ansible_user=ec2-user ansible_ssh_private_key_file=/home/alex/.ssh/Linux1.pem
+[group2]
+Linux2  ansible_host=3.17.158.176 ansible_user=ec2-user ansible_ssh_private_key_file=/home/alex/.ssh/Linux1.pem
+[group3]
+Linux3  ansible_host=3.128.26.205 ansible_user=ec2-user ansible_ssh_private_key_file=/home/alex/.ssh/Linux1.pem
+[group4]
+Linux4  ansible_host=13.58.104.185 ansible_user=ec2-user ansible_ssh_private_key_file=/home/alex/.ssh/Linux1.pem
+[iaas:children]
+group1
+group2
