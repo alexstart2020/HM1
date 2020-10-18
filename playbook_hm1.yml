@@ -4,7 +4,7 @@
   become: yes
   roles:
     - create_empty_file
-- name: invoke the role for /etc/iaac for defining virable
+- name: invoke the role for defining virable
   hosts: all
   become: yes
   roles:   
